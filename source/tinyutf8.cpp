@@ -1,4 +1,4 @@
-#include "tinyutf8.h"
+#include "../include/tinyutf8/tinyutf8.h"
 
 // Explicit template instantiations for utf8_string
 template struct tiny_utf8::basic_utf8_string<>;
