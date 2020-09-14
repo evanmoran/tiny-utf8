@@ -11,4 +11,4 @@ else()
     set(LIB_BUILD_TYPE SHARED)
 endif()
 
-add_library(tinyutf8 ${LIB_BUILD_TYPE} tinyutf8.cpp)
+add_library(tinyutf8 ${LIB_BUILD_TYPE} source/tinyutf8.cpp)
